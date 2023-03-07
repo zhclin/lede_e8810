@@ -8,6 +8,6 @@
 &pcie0 {
 	wifi@0,0 {
 		reg = <0x0000 0 0 0 0>;
-		mediatek,mtd-eeprom = <&factory 0x8000>;
+		mediatek,mtd-eeprom = <&factory 0x2000>;
 	};
 };
